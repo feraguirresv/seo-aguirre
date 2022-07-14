@@ -1,0 +1,17 @@
+@mixin fontsize ($size, $weigth) {
+    font-size: $size;
+    font-weight: $weigth;
+
+}
+
+.letrap{
+    @include fontsize(1rem, 100 )
+}
+
+.letrah1{
+    @include fontsize(4rem, 700 )
+}
+
+.letrah2{
+    @include fontsize(3rem, 300 )
+}

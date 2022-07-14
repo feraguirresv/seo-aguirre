@@ -1,0 +1,109 @@
+.boton {
+  background-color: orange;
+  text-align: center;
+  color: white;
+  border: 1px solid rgb(190, 18, 18);
+}
+.boton .btn {
+  text-align: center;
+}
+.boton:hover {
+  filter: opacity(70%);
+}
+
+* {
+  background-color: #87805E;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #FF5B00;
+}
+
+h2 {
+  color: #FF5B00;
+}
+
+.card {
+  background-color: gray;
+  display: block;
+  margin: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-style: solid;
+}
+.card:hover {
+  filter: opacity(0.7);
+  transform: scale(1.04);
+}
+
+.letrap {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.letrah1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.letrah2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+ul {
+  margin: 12px 26px;
+  padding: 10px 12px;
+  list-style: none;
+  text-align: center;
+  font-size: 1.2rem;
+}
+ul li {
+  display: inline-block;
+}
+ul a {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  color: rgb(255, 111, 8);
+}
+ul:hover {
+  background-color: #FF5B00;
+  transition: background-color 3s ease-out;
+  filter: opacity 0.9;
+}
+
+.footer-style {
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+.footer-style .footer {
+  color: rgb(187, 104, 10);
+}
+.footer-style footer h3 {
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+.footer-style footer .footer-above {
+  padding-top: 50px;
+  background-color: #050505;
+}
+.footer-style footer .footer-col {
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

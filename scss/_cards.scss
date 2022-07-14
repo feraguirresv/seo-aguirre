@@ -1,0 +1,12 @@
+.card{
+    background-color: gray;
+    display:block;
+    margin: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    &:hover{
+        filter: opacity(0.7);
+        transform : scale(1.04);
+    }
+    }
